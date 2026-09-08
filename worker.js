@@ -17,13 +17,13 @@ const MANIFEST = {
   catalogs: [
     {
       type: "movie",
-      id: "abuela_pelis_v2",
+      id: "abuela_pelis_v3",
       name: "🍿 Pelis para la Abuela",
       extra: [{ name: "skip", isRequired: false }],
     },
     {
       type: "series",
-      id: "abuela_series_v2",
+      id: "abuela_series_v3",
       name: "🌙 Series para la Abuela",
       extra: [{ name: "skip", isRequired: false }],
     }
@@ -37,7 +37,7 @@ const SPAIN_ORIGINAL_IDS = new Set([
 ]);
 
 const CATALOGS = {
-  abuela_pelis_v2: [
+  abuela_pelis_v3: [
     { id: "tt0052618", type: "movie", name: "Ben-Hur (1959)" },
     { id: "tt0049833", type: "movie", name: "Los Diez Mandamientos (1956)" },
     { id: "tt0335345", type: "movie", name: "La Pasión de Cristo (2004)" },
@@ -80,13 +80,13 @@ const CATALOGS = {
     { id: "tt0058331", type: "movie", name: "My Fair Lady (1964)" },
     { id: "tt0053291", type: "movie", name: "Con Faldas y a lo Loco (1959)" }
   ],
-  abuela_series_v2: [
+  abuela_series_v3: [
     { id: "tt0075520", type: "series", name: "Jesús de Nazaret (Miniserie 1977)" },
     { id: "tt5491994", type: "series", name: "Planet Earth II (2016)" },
     { id: "tt9253866", type: "series", name: "Nuestro Planeta (2019)" },
     { id: "tt0081846", type: "series", name: "Cosmos (1980)" },
     { id: "tt6769208", type: "series", name: "Blue Planet II (2017)" },
-    { id: "tt1533261", type: "series", name: "Life (BBC)" },
+    { id: "tt1533261", type: "series", name: "Life (BBC)", poster: "https://static.tvmaze.com/uploads/images/original_untouched/7/18380.jpg" },
     { id: "tt1848220", type: "series", name: "El Sultán (Muhteşem Yüzyıl)" },
     { id: "tt4320258", type: "series", name: "Diriliş: Ertuğrul" },
     { id: "tt5133998", type: "series", name: "Kara Sevda (Amor Eterno)" },
@@ -94,7 +94,7 @@ const CATALOGS = {
     { id: "tt8478162", type: "series", name: "Erkenci Kuş" },
     { id: "tt10723804", type: "series", name: "Mucize Doktor" },
     { id: "tt8772296", type: "series", name: "Hercai: Amor y Venganza" },
-    { id: "tt3195288", type: "series", name: "Medcezir" },
+    { id: "tt3195288", type: "series", name: "Medcezir", poster: "https://static.tvmaze.com/uploads/images/original_untouched/64/161868.jpg" },
     { id: "tt1606375", type: "series", name: "Downton Abbey" },
     { id: "tt4786824", type: "series", name: "The Crown" },
     { id: "tt9471404", type: "series", name: "The Chosen" },
@@ -103,10 +103,10 @@ const CATALOGS = {
     { id: "tt10590066", type: "series", name: "All Creatures Great and Small" },
     { id: "tt2306299", type: "series", name: "Vikings" },
     { id: "tt2861424", type: "series", name: "Cosmos (2014)" },
-    { id: "tt7929424", type: "series", name: "One Strange Rock" },
+    { id: "tt7929424", type: "series", name: "One Strange Rock", poster: "https://static.tvmaze.com/uploads/images/original_untouched/150/376590.jpg" },
     { id: "tt4295140", type: "series", name: "Chef's Table" },
-    { id: "tt2006375", type: "series", name: "Gran Hotel" },
-    { id: "tt3347102", type: "series", name: "Velvet" },
+    { id: "tt2006375", type: "series", name: "Gran Hotel", poster: "https://static.tvmaze.com/uploads/images/original_untouched/28/72413.jpg" },
+    { id: "tt3347102", type: "series", name: "Velvet", poster: "https://static.tvmaze.com/uploads/images/original_untouched/73/184549.jpg" },
     { id: "tt1864750", type: "series", name: "El tiempo entre costuras" },
     { id: "tt0472642", type: "series", name: "Amar en tiempos revueltos" },
     { id: "tt5674718", type: "series", name: "Las chicas del cable" },
