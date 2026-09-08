@@ -17,13 +17,13 @@ const MANIFEST = {
   catalogs: [
     {
       type: "movie",
-      id: "abuela_pelis_todas",
+      id: "abuela_pelis_v2",
       name: "🍿 Pelis para la Abuela",
       extra: [{ name: "skip", isRequired: false }],
     },
     {
       type: "series",
-      id: "abuela_series_todas",
+      id: "abuela_series_v2",
       name: "🌙 Series para la Abuela",
       extra: [{ name: "skip", isRequired: false }],
     }
@@ -37,7 +37,7 @@ const SPAIN_ORIGINAL_IDS = new Set([
 ]);
 
 const CATALOGS = {
-  abuela_pelis_todas: [
+  abuela_pelis_v2: [
     { id: "tt0052618", type: "movie", name: "Ben-Hur (1959)" },
     { id: "tt0049833", type: "movie", name: "Los Diez Mandamientos (1956)" },
     { id: "tt0335345", type: "movie", name: "La Pasión de Cristo (2004)" },
@@ -80,7 +80,7 @@ const CATALOGS = {
     { id: "tt0058331", type: "movie", name: "My Fair Lady (1964)" },
     { id: "tt0053291", type: "movie", name: "Con Faldas y a lo Loco (1959)" }
   ],
-  abuela_series_todas: [
+  abuela_series_v2: [
     { id: "tt0075520", type: "series", name: "Jesús de Nazaret (Miniserie 1977)" },
     { id: "tt5491994", type: "series", name: "Planet Earth II (2016)" },
     { id: "tt9253866", type: "series", name: "Nuestro Planeta (2019)" },
